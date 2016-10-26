@@ -37,6 +37,7 @@ namespace AspirantesIngenieria
         {
             Conexion con = new Conexion();
             con.llenarComboAspirante(cb_aspirante);
+            con.llenarComboProgramas(cb_programa);
         }
 
         private void cb_aspirante_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -49,7 +50,7 @@ namespace AspirantesIngenieria
                 String user = cb_aspirante.SelectedValue.ToString();
                 if (user != "")
                 {
-                    String query = "SELECT aspirante.correo,aspirante.grado,aspirante.idIngenieria FROM usuario WHERE aspirante.nombre = '" + user + "'";
+                    String query = "SELECT aspirante.correo,aspirante.grado,programa.nombrePrograma FROM aspirante INNER JOIN programa ON programa.idPrograma = aspirante.idIngenieria WHERE aspirante.nombre = '" +user+"'";
                     SqlCommand cmd = new SqlCommand(query, con);
                     SqlDataReader dr = cmd.ExecuteReader();
                     while (dr.Read())
@@ -57,13 +58,14 @@ namespace AspirantesIngenieria
                         tb_correo.Text = dr["correo"].ToString();
                         switch (dr["grado"].ToString())
                         {
-                            case "4": rdBtn_4.IsChecked = true;
+                            case "4": radio1.IsChecked = true;
                                 break;
-                            case "5": rdBtn_5.IsChecked = true;
+                            case "5": radio2.IsChecked = true;
                                 break;
-                            case "6": rdBtn_5.IsChecked = true;
+                            case "6": radio3.IsChecked = true;
                                 break;
                         }
+                        cb_programa.SelectedValue = dr["nombrePrograma"];
                     }
                 }
                 con.Close();
@@ -84,7 +86,7 @@ namespace AspirantesIngenieria
                 String user = cb_aspirante.SelectedValue.ToString();
                 if (user != "" && tb_correo.Text != "" && cb_programa.SelectedValue.ToString() != "")
                 {
-                    String gradoStr = rdBtn_4.IsChecked == true ? "4" : rdBtn_5.IsChecked == true ? "5" : "6";
+                    String gradoStr = radio1.IsChecked == true ? "4" : radio2.IsChecked == true ? "5" : "6";
                     int prog = 0;
                     switch (cb_programa.SelectedItem.ToString().Trim())
                     {
@@ -108,7 +110,7 @@ namespace AspirantesIngenieria
                             break;
                     }
 
-                    String query = "UPDATE aspirante SET aspirante.correo = '" + tb_correo.Text + "',aspirante.idPrograma = '" + prog + "',aspirante.grado = '" + gradoStr + "' WHERE aspirante.nombre ='" + user + "'";
+                    String query = "UPDATE aspirante SET aspirante.correo = '" + tb_correo.Text + "',aspirante.idIngenieria = '" + prog + "',aspirante.grado = '" + gradoStr + "' WHERE aspirante.nombre ='" + user + "'";
                     SqlCommand cmd = new SqlCommand(query, con);
                     int res = cmd.ExecuteNonQuery();
                     if(res > 0)  MessageBox.Show("SE dio exitosamente la mod"); else MessageBox.Show("No se dio de la mod");

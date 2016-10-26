@@ -18,9 +18,10 @@ namespace AspirantesIngenieria
         public static SqlConnection Connect()
         {
             SqlConnection cnn;
-            cnn = new SqlConnection("Data Source=CC201-22;Initial Catalog=SistemaAspirantes;Persist Security Info=True;User ID=sa;Password=sqladmin");
+            String maquina = "112SALAS12";
+            cnn = new SqlConnection("Data Source="+maquina+";Initial Catalog=SistemaAspirantes;Persist Security Info=True;User ID=sa;Password=sqladmin");
             cnn.Open();
-            MessageBox.Show("Conexion Exitosa");
+            //MessageBox.Show("Conexion Exitosa");
             return cnn;
         }
 

@@ -27,8 +27,8 @@ namespace AspirantesIngenieria
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            String sexo = rdBtn_hombre.IsChecked == true ? "masculino" : "femenino";
-            String gradoStr = rdBtn_4.IsChecked == true ? "4" : rdBtn_5.IsChecked == true ? "5" : "6";
+            String sexo = radioH.IsChecked == true ? "masculino" : "femenino";
+            String gradoStr = radio1.IsChecked == true ? "4" : radio2.IsChecked == true ? "5" : "6";
             int grado = int.Parse(gradoStr);
             String fechaNac = dt_fecha.SelectedDate.ToString();
             int prog = 0;
@@ -99,6 +99,28 @@ namespace AspirantesIngenieria
             this.Hide();
             Elimina elimina_frm = new Elimina();
             elimina_frm.Show();
+        }
+
+        private void rdBtn_4_Checked(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void rdBtn_5_Checked(object sender, RoutedEventArgs e)
+        {
+            rdBtn_4.IsChecked = false;
+            rdBtn_6.IsChecked = false;
+        }
+
+        private void rdBtn_6_Checked(object sender, RoutedEventArgs e)
+        {
+            rdBtn_4.IsChecked = false;
+            rdBtn_5.IsChecked = false;
+        }
+
+        private void rdBtn_5_Unchecked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

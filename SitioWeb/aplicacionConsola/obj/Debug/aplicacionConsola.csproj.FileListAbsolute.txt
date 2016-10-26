@@ -1,0 +1,6 @@
+C:\Users\sdist\Desktop\SitioWeb\aplicacionConsola\bin\Debug\aplicacionConsola.exe.config
+C:\Users\sdist\Desktop\SitioWeb\aplicacionConsola\bin\Debug\aplicacionConsola.exe
+C:\Users\sdist\Desktop\SitioWeb\aplicacionConsola\bin\Debug\aplicacionConsola.pdb
+C:\Users\sdist\Desktop\SitioWeb\aplicacionConsola\obj\Debug\aplicacionConsola.csprojResolveAssemblyReference.cache
+C:\Users\sdist\Desktop\SitioWeb\aplicacionConsola\obj\Debug\aplicacionConsola.exe
+C:\Users\sdist\Desktop\SitioWeb\aplicacionConsola\obj\Debug\aplicacionConsola.pdb

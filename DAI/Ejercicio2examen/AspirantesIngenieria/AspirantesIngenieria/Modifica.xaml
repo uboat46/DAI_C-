@@ -9,12 +9,15 @@
         <Label Content="Correo" HorizontalAlignment="Left" Margin="13,92,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Grado" Content="Grado" HorizontalAlignment="Left" Margin="13,136,0,0" VerticalAlignment="Top" Width="99"/>
         <TextBox x:Name="tb_correo" HorizontalAlignment="Left" Height="26" Margin="150,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
-        <CheckBox x:Name="rdBtn_4" Content="4°" HorizontalAlignment="Left" Margin="150,136,0,0" VerticalAlignment="Top" IsChecked="True"/>
-        <CheckBox x:Name="rdBtn_6" Content="6°" HorizontalAlignment="Left" Margin="313,136,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="rdBtn_5" Content="5°" HorizontalAlignment="Left" Margin="244,136,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="rdBtn_4" Content="4°" HorizontalAlignment="Left" Margin="54,266,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="rdBtn_6" Content="6°" HorizontalAlignment="Left" Margin="217,266,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="rdBtn_5" Content="5°" HorizontalAlignment="Left" Margin="148,266,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Ingeniería" Content="Label" HorizontalAlignment="Left" Margin="13,179,0,0" VerticalAlignment="Top" Width="99"/>
         <ComboBox x:Name="cb_programa" HorizontalAlignment="Left" Margin="150,183,0,0" VerticalAlignment="Top" Width="254"/>
         <Button Content="Modifica" HorizontalAlignment="Left" Margin="313,228,0,0" VerticalAlignment="Top" Width="228" Height="54" Click="Button_Click_1"/>
+        <RadioButton x:Name="radio1" GroupName="grado"  Content="4°" HorizontalAlignment="Left" Margin="149,141,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="radio2" GroupName="grado" Content="5°" HorizontalAlignment="Left" Margin="262,141,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radio3" GroupName="grado" Content="6°" HorizontalAlignment="Left" Margin="377,141,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

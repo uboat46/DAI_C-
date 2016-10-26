@@ -50,6 +50,7 @@ namespace AspirantesIngenieria
                 Aspirante a = new Aspirante(aspi, "sexo","2016-10-14", "mail", 4, 1);
                 Conexion con = new Conexion();
                 int res = con.eliminaAspirante(a);
+                cb_aspirante.Items.Clear();
                 con.llenarComboAspirante(cb_aspirante);
                 if (res > 0)
                 {
