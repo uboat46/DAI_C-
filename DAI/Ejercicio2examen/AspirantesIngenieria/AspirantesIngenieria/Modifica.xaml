@@ -1,0 +1,20 @@
+﻿<Window x:Class="AspirantesIngenieria.Modifica"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Modifica" Height="340" Width="616">
+    <Grid Loaded="Grid_Loaded">
+        <Button Content="&lt;---" HorizontalAlignment="Left" Margin="33,27,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Aspirante: " HorizontalAlignment="Left" Margin="280,50,0,0" VerticalAlignment="Top" Width="71"/>
+        <ComboBox x:Name="cb_aspirante" HorizontalAlignment="Left" Margin="356,50,0,0" VerticalAlignment="Top" Width="218" Height="26" SelectionChanged="cb_aspirante_SelectionChanged"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="13,92,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Grado" Content="Grado" HorizontalAlignment="Left" Margin="13,136,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="tb_correo" HorizontalAlignment="Left" Height="26" Margin="150,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
+        <CheckBox x:Name="rdBtn_4" Content="4°" HorizontalAlignment="Left" Margin="150,136,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="rdBtn_6" Content="6°" HorizontalAlignment="Left" Margin="313,136,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="rdBtn_5" Content="5°" HorizontalAlignment="Left" Margin="244,136,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Ingeniería" Content="Label" HorizontalAlignment="Left" Margin="13,179,0,0" VerticalAlignment="Top" Width="99"/>
+        <ComboBox x:Name="cb_programa" HorizontalAlignment="Left" Margin="150,183,0,0" VerticalAlignment="Top" Width="254"/>
+        <Button Content="Modifica" HorizontalAlignment="Left" Margin="313,228,0,0" VerticalAlignment="Top" Width="228" Height="54" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

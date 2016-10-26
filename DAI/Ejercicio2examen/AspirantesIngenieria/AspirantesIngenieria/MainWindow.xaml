@@ -1,0 +1,33 @@
+﻿<Window x:Class="AspirantesIngenieria.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="574.259" Width="823.148">
+    <Grid x:Name="main" Loaded="main_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="131*"/>
+            <ColumnDefinition Width="684*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="28,79,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="254"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="22,79,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="tb_nombre" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="28,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
+        <Label Content="Sexo" HorizontalAlignment="Left" Margin="22,126,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Fecha Nac." HorizontalAlignment="Left" Margin="22,175,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="22,229,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Grado" Content="Grado" HorizontalAlignment="Left" Margin="22,273,0,0" VerticalAlignment="Top" Width="99"/>
+        <CheckBox x:Name="rdBtn_hombre" Content="Masculino" Grid.Column="1" HorizontalAlignment="Left" Margin="28,131,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="rdBtn_mujer" Content="Femenino" Grid.Column="1" HorizontalAlignment="Left" Margin="214,131,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dt_fecha" Grid.Column="1" HorizontalAlignment="Left" Margin="28,175,0,0" VerticalAlignment="Top" Width="254"/>
+        <TextBox x:Name="tb_correo" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="28,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
+        <CheckBox x:Name="rdBtn_4" Content="4°" Grid.Column="1" HorizontalAlignment="Left" Margin="28,273,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="rdBtn_6" Content="6°" Grid.Column="1" HorizontalAlignment="Left" Margin="214,273,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="rdBtn_5" Content="5°" Grid.Column="1" HorizontalAlignment="Left" Margin="122,273,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Ingeniería" Content="Label" HorizontalAlignment="Left" Margin="22,316,0,0" VerticalAlignment="Top" Width="99"/>
+        <ComboBox x:Name="cb_programa" Grid.Column="1" HorizontalAlignment="Left" Margin="28,320,0,0" VerticalAlignment="Top" Width="254"/>
+        <Button x:Name="btn_agrega" Content="Alta" Grid.Column="1" HorizontalAlignment="Left" Margin="28,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click"/>
+        <Button Content="Modifica" Grid.Column="1" HorizontalAlignment="Left" Margin="214,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click_1"/>
+        <Button Content="Baja" Grid.Column="1" HorizontalAlignment="Left" Margin="419,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click_2"/>
+        <Label Content="ITAM" Grid.Column="1" HorizontalAlignment="Left" Margin="471,10,0,0" VerticalAlignment="Top" Height="74" Width="131" FontSize="48"/>
+        <Label Content="Aspirante" Grid.Column="1" HorizontalAlignment="Left" Margin="28,5,0,0" VerticalAlignment="Top" Height="74" Width="363" FontSize="48"/>
+
+    </Grid>
+</Window>

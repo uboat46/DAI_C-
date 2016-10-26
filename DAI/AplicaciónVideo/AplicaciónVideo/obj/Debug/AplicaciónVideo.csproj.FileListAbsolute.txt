@@ -1,0 +1,13 @@
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\bin\Debug\AplicaciónVideo.exe.config
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\bin\Debug\AplicaciónVideo.exe
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\bin\Debug\AplicaciónVideo.pdb
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.csprojResolveAssemblyReference.cache
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\MainWindow.baml
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\MainWindow.g.cs
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\App.g.cs
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo_MarkupCompile.cache
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.g.resources
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.Properties.Resources.resources
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.csproj.GenerateResource.Cache
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.exe
+c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.pdb

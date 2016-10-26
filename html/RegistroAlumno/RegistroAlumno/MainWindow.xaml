@@ -1,0 +1,30 @@
+﻿<Window x:Class="RegistroAlumno.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Loaded="Grid_Loaded" RenderTransformOrigin="0.567,0.497">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="281*"/>
+            <ColumnDefinition Width="236*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Alumno" HorizontalAlignment="Left" Margin="116,10,0,0" VerticalAlignment="Top" Width="61" Height="26"/>
+        <Label Content="Folio&#x9;" HorizontalAlignment="Left" Margin="21,52,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="21,94,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
+        <Label Content="Sexo" HorizontalAlignment="Left" Margin="21,137,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="21,178,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
+        <Label Content="Semestre" HorizontalAlignment="Left" Margin="21,209,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
+        <Label Content="Ingeniería" HorizontalAlignment="Left" Margin="21,240,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
+        <TextBox x:Name="tb_folio" HorizontalAlignment="Left" Height="23" Margin="96,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tb_folio_TextChanged"/>
+        <TextBox x:Name="tb_nombre" HorizontalAlignment="Left" Height="23" Margin="96,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_correo" HorizontalAlignment="Left" Height="23" Margin="96,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_semestre" HorizontalAlignment="Left" Height="23" Margin="96,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cb_programa" HorizontalAlignment="Left" Margin="96,244,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cb_programa_SelectionChanged" Height="22"/>
+        <Button x:Name="btn_agrega" Content="Agrega" HorizontalAlignment="Left" Margin="42,55,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1" Height="22"/>
+        <Button x:Name="btn_elimina" Content="Elimina" HorizontalAlignment="Left" Margin="42,94,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Height="22" Click="btn_elimina_Click"/>
+        <RadioButton x:Name="rdBtn_hombre" Content="Masculino" HorizontalAlignment="Left" Margin="96,142,0,0" VerticalAlignment="Top" IsChecked="True" Height="16" Width="70"/>
+        <RadioButton x:Name="rdBtn_mujer1" Content="Femenino" HorizontalAlignment="Left" Margin="178,142,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Width="69" Height="16"/>
+        <Button x:Name="btn_modifica" Content="Modifica" Grid.Column="1" HorizontalAlignment="Left" Margin="42,136,0,0" VerticalAlignment="Top" Width="75" Click="btn_modifica_Click"/>
+        <Button x:Name="btn_busca" Content="Busca" Grid.Column="1" HorizontalAlignment="Left" Margin="42,178,0,0" VerticalAlignment="Top" Width="75" Click="btn_busca_Click"/>
+
+    </Grid>
+</Window>
