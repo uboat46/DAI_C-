@@ -44,9 +44,10 @@ namespace AspirantesIngenieria
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            String aspi = cb_aspirante.SelectedItem.ToString().Trim();
-            if (aspi != "")
+            
+            if (cb_aspirante.HasItems && cb_aspirante.SelectedItem.ToString() != "")
             {
+                String aspi = cb_aspirante.SelectedItem.ToString().Trim();
                 Aspirante a = new Aspirante(aspi, "sexo","2016-10-14", "mail", 4, 1);
                 Conexion con = new Conexion();
                 int res = con.eliminaAspirante(a);

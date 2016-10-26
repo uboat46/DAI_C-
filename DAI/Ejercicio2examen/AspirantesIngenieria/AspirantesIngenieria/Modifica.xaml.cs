@@ -82,10 +82,9 @@ namespace AspirantesIngenieria
 
             if (con != null)
             {
-
-                String user = cb_aspirante.SelectedValue.ToString();
-                if (user != "" && tb_correo.Text != "" && cb_programa.SelectedValue.ToString() != "")
+                if (cb_aspirante.HasItems && cb_aspirante.SelectedItem.ToString() != "" && tb_correo.Text != "" && cb_programa.SelectedValue.ToString() != "")
                 {
+                    String user = cb_aspirante.SelectedValue.ToString();
                     String gradoStr = radio1.IsChecked == true ? "4" : radio2.IsChecked == true ? "5" : "6";
                     int prog = 0;
                     switch (cb_programa.SelectedItem.ToString().Trim())
@@ -113,7 +112,11 @@ namespace AspirantesIngenieria
                     String query = "UPDATE aspirante SET aspirante.correo = '" + tb_correo.Text + "',aspirante.idIngenieria = '" + prog + "',aspirante.grado = '" + gradoStr + "' WHERE aspirante.nombre ='" + user + "'";
                     SqlCommand cmd = new SqlCommand(query, con);
                     int res = cmd.ExecuteNonQuery();
-                    if(res > 0)  MessageBox.Show("SE dio exitosamente la mod"); else MessageBox.Show("No se dio de la mod");
+                    if (res > 0) MessageBox.Show("SE dio exitosamente la mod"); else MessageBox.Show("No se dio de la mod");
+                }
+                else
+                {
+                    MessageBox.Show("Rellene todos los campos!");
                 }
                 con.Close();
             }

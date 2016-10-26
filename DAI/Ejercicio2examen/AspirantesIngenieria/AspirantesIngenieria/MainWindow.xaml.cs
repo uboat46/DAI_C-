@@ -101,26 +101,5 @@ namespace AspirantesIngenieria
             elimina_frm.Show();
         }
 
-        private void rdBtn_4_Checked(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void rdBtn_5_Checked(object sender, RoutedEventArgs e)
-        {
-            rdBtn_4.IsChecked = false;
-            rdBtn_6.IsChecked = false;
-        }
-
-        private void rdBtn_6_Checked(object sender, RoutedEventArgs e)
-        {
-            rdBtn_4.IsChecked = false;
-            rdBtn_5.IsChecked = false;
-        }
-
-        private void rdBtn_5_Unchecked(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

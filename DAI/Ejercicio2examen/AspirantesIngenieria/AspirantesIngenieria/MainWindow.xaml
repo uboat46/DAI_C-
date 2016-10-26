@@ -14,13 +14,8 @@
         <Label Content="Fecha Nac." HorizontalAlignment="Left" Margin="22,175,0,0" VerticalAlignment="Top" Width="99"/>
         <Label Content="Correo" HorizontalAlignment="Left" Margin="22,229,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Grado" Content="Grado" HorizontalAlignment="Left" Margin="22,273,0,0" VerticalAlignment="Top" Width="99"/>
-        <CheckBox x:Name="rdBtn_hombre" Content="Masculino" Grid.Column="1" HorizontalAlignment="Left" Margin="386,115,0,0" VerticalAlignment="Top" IsChecked="True"/>
-        <CheckBox x:Name="rdBtn_mujer" Content="Femenino" Grid.Column="1" HorizontalAlignment="Left" Margin="572,115,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="dt_fecha" Grid.Column="1" HorizontalAlignment="Left" Margin="28,175,0,0" VerticalAlignment="Top" Width="254"/>
         <TextBox x:Name="tb_correo" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="28,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
-        <CheckBox x:Name="rdBtn_4" Content="4°" Grid.Column="1" HorizontalAlignment="Left" Margin="403,136,0,0" VerticalAlignment="Top" Checked="rdBtn_4_Checked"/>
-        <CheckBox x:Name="rdBtn_6" Content="6°" Grid.Column="1" HorizontalAlignment="Left" Margin="589,136,0,0" VerticalAlignment="Top" Checked="rdBtn_6_Checked"/>
-        <CheckBox x:Name="rdBtn_5" Content="5°" Grid.Column="1" HorizontalAlignment="Left" Margin="497,136,0,0" VerticalAlignment="Top" Checked="rdBtn_5_Checked" Unchecked="rdBtn_5_Unchecked"/>
         <Label x:Name="Ingeniería" Content="Label" HorizontalAlignment="Left" Margin="22,316,0,0" VerticalAlignment="Top" Width="99"/>
         <ComboBox x:Name="cb_programa" Grid.Column="1" HorizontalAlignment="Left" Margin="28,320,0,0" VerticalAlignment="Top" Width="254"/>
         <Button x:Name="btn_agrega" Content="Alta" Grid.Column="1" HorizontalAlignment="Left" Margin="28,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click"/>
