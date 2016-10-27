@@ -20,7 +20,7 @@
         <ComboBox x:Name="cb_programa" Grid.Column="1" HorizontalAlignment="Left" Margin="28,320,0,0" VerticalAlignment="Top" Width="254"/>
         <Button x:Name="btn_agrega" Content="Alta" Grid.Column="1" HorizontalAlignment="Left" Margin="28,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click"/>
         <Button Content="Modifica" Grid.Column="1" HorizontalAlignment="Left" Margin="214,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click_1"/>
-        <Button Content="Baja" Grid.Column="1" HorizontalAlignment="Left" Margin="419,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click_2"/>
+        <Button Content="Baja" Grid.Column="1" HorizontalAlignment="Left" Margin="412,400,0,0" VerticalAlignment="Top" Width="162" Height="93" Click="Button_Click_2"/>
         <Label Content="ITAM" Grid.Column="1" HorizontalAlignment="Left" Margin="471,10,0,0" VerticalAlignment="Top" Height="74" Width="131" FontSize="48"/>
         <Label Content="Aspirante" Grid.Column="1" HorizontalAlignment="Left" Margin="28,5,0,0" VerticalAlignment="Top" Height="74" Width="363" FontSize="48"/>
         <RadioButton x:Name="radio1" GroupName="grado"  Content="4°" Grid.Column="1" HorizontalAlignment="Left" Margin="27,278,0,0" VerticalAlignment="Top" IsChecked="True"/>
@@ -28,6 +28,7 @@
         <RadioButton x:Name="radio3" GroupName="grado" Content="6°" Grid.Column="1" HorizontalAlignment="Left" Margin="255,278,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioH" GroupName="sex" Content="Masculino" Grid.Column="1" HorizontalAlignment="Left" Margin="28,126,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <RadioButton x:Name="radioM" GroupName="sex" Content="Femenino" Grid.Column="1" HorizontalAlignment="Left" Margin="214,126,0,0" VerticalAlignment="Top"/>
+        <Button Content="Reporte" Grid.Column="1" HorizontalAlignment="Left" Margin="471,106,0,0" VerticalAlignment="Top" Width="162" Height="55" Click="Button_Click_3"/>
 
     </Grid>
 </Window>

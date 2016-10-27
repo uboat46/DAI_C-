@@ -49,3 +49,5 @@ C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\Ejercicio2examen\AspirantesIngenieria\Aspi
 C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\Ejercicio2examen\AspirantesIngenieria\AspirantesIngenieria\obj\Debug\AspirantesIngenieria.g.resources
 C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\Ejercicio2examen\AspirantesIngenieria\AspirantesIngenieria\obj\Debug\AspirantesIngenieria.Properties.Resources.resources
 C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\Ejercicio2examen\AspirantesIngenieria\AspirantesIngenieria\obj\Debug\AspirantesIngenieria.csproj.GenerateResource.Cache
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\Ejercicio2examen\AspirantesIngenieria\AspirantesIngenieria\obj\Debug\Reporte.baml
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\Ejercicio2examen\AspirantesIngenieria\AspirantesIngenieria\obj\Debug\Reporte.g.cs

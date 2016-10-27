@@ -101,5 +101,12 @@ namespace AspirantesIngenieria
             elimina_frm.Show();
         }
 
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Reporte elimina_frm = new Reporte();
+            elimina_frm.Show();
+        }
+
     }
 }

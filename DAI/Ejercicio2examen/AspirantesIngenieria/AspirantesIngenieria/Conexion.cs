@@ -18,7 +18,7 @@ namespace AspirantesIngenieria
         public static SqlConnection Connect()
         {
             SqlConnection cnn;
-            String maquina = "112SALAS13";
+            String maquina = "112SALAS26";
             cnn = new SqlConnection("Data Source="+maquina+";Initial Catalog=SistemaAspirante;Persist Security Info=True;User ID=sa;Password=sqladmin");
             cnn.Open();
             //MessageBox.Show("Conexion Exitosa");
@@ -93,6 +93,31 @@ namespace AspirantesIngenieria
                 Console.WriteLine(e.Message);
                 MessageBox.Show(e.Message);
                 return -1;
+            }
+        }
+
+        public void llenaGrid(DataGrid dtGrd, ComboBox cb)
+        {
+            try
+            {
+                String prog = cb.SelectedItem.ToString();
+                String query;
+                if (prog != "Todos")
+                {
+                    query = "SELECT * FROM aspirante INNER JOIN programa ON programa.idPrograma = aspirante.idIngenieria WHERE programa.nombrePrograma = '" + prog + "';";
+                }
+                else
+                {
+                    query = "SELECT * FROM aspirante;";
+                }
+                SqlCommand cmd = new SqlCommand(query,Conexion.Connect());
+                SqlDataReader dr = cmd.ExecuteReader();
+                dtGrd.ItemsSource = dr;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                MessageBox.Show(e.Message);
             }
         }
     }
