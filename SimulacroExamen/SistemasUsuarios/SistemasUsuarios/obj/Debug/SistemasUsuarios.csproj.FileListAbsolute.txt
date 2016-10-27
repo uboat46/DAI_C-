@@ -1,0 +1,15 @@
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\bin\Debug\SistemasUsuarios.exe.config
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\bin\Debug\SistemasUsuarios.exe
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\bin\Debug\SistemasUsuarios.pdb
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios.csprojResolveAssemblyReference.cache
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\MainWindow.baml
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\MainWindow.g.cs
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\App.g.cs
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios_MarkupCompile.cache
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios.g.resources
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios.Properties.Resources.resources
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios.csproj.GenerateResource.Cache
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios.exe
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\SistemasUsuarios.pdb
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\Menu.baml
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\SimulacroExamen\SistemasUsuarios\SistemasUsuarios\obj\Debug\Menu.g.cs

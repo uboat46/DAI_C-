@@ -11,3 +11,16 @@ c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\Aplica
 c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.csproj.GenerateResource.Cache
 c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.exe
 c:\users\sdist\OPCmavs12a\wrk\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.pdb
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\bin\Debug\AplicaciónVideo.exe.config
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.exe
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.pdb
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\bin\Debug\AplicaciónVideo.exe
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\bin\Debug\AplicaciónVideo.pdb
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.csprojResolveAssemblyReference.cache
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\MainWindow.baml
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\MainWindow.g.cs
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\App.g.cs
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo_MarkupCompile.cache
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.g.resources
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.Properties.Resources.resources
+C:\Users\ESOTOMAYG\Desktop\DAI_C-\DAI\AplicaciónVideo\AplicaciónVideo\obj\Debug\AplicaciónVideo.csproj.GenerateResource.Cache
